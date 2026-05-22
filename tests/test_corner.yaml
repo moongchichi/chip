@@ -1,0 +1,22 @@
+name: corner_cases
+cases:
+  - name: all_zero_q
+    N: 4
+    D: 8
+    description: "Q=0 → all scores=0 → expect idx=0 (first)"
+  - name: same_scores
+    N: 4
+    D: 8
+    description: "All K rows identical → all scores equal → expect idx=0"
+  - name: max_at_last
+    N: 4
+    D: 8
+    description: "Dominant score at row N-1 → expect idx=N-1"
+  - name: max_at_first
+    N: 4
+    D: 8
+    description: "Dominant score at row 0 → expect idx=0"
+  - name: single_row
+    N: 1
+    D: 8
+    description: "N=1 → only one choice, must select idx=0"

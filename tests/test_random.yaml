@@ -1,0 +1,6 @@
+name: random_regression
+N: 16
+D: 32
+count: 100
+seed_start: 0
+description: "100 random 16x32 tests covering full N_MAX x D_MAX"

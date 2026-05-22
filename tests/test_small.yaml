@@ -1,0 +1,5 @@
+name: small_4x8
+N: 4
+D: 8
+seed: 42
+description: "Small 4x8 random test, quick smoke check"
